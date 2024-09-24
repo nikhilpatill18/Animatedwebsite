@@ -33,20 +33,20 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 50px 80px;
+    padding: 30px 60px;
 }
 
 .part2 {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 70px;
+    gap: 50px;
 }
 
 nav h1 {
-    font-size: 50px;
+    font-size: 35px;
     display: flex;
-    gap: 6px;
+    gap: 4px;
 }
 
 nav i {
@@ -55,17 +55,17 @@ nav i {
 }
 
 nav h4 {
-    font-size: 30px;
-    font-weight: 500;
+    font-size: 25px;
+    font-weight: 300;
 }
 
 nav button {
-    padding: 22px 40px;
-    font-size: 21px;
+    padding: 15px 30px;
+    font-size: 15px;
     background-color: transparent;
     border-radius: 10px;
     border: 1px solid black;
-    font-weight: 600;
+    font-weight: 400;
 }
 
 section .center {
