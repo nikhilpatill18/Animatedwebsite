@@ -1,0 +1,293 @@
+@font-face {
+    font-family: china;
+    src: url(3856NeueMachina.woff2);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+html,
+body {
+
+    /* background-color: black; */
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+section {
+    height: 100%;
+    width: 100%;
+    /* background-color: antiquewhite; */
+    position: relative;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 80px;
+}
+
+.part2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+}
+
+nav h1 {
+    font-size: 50px;
+    display: flex;
+    gap: 6px;
+}
+
+nav i {
+    display: inline-block;
+    rotate: 45deg;
+}
+
+nav h4 {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+nav button {
+    padding: 22px 40px;
+    font-size: 21px;
+    background-color: transparent;
+    border-radius: 10px;
+    border: 1px solid black;
+    font-weight: 600;
+}
+
+section .center {
+    padding: 60px 100px;
+    width: 100%;
+    height: 72%;
+    display: flex;
+}
+
+.center .center-part-1 {
+    width: 44%;
+    height: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.center .center-part-2 {
+    width: 56%;
+    height: 100%;
+    /* background-color: blue; */
+    position: relative;
+}
+
+.center-part-1 h1 {
+    line-height: 1.2;
+    font-size: 80px;
+    /* background-color: red; */
+    font-family: china;
+}
+
+.center-part-1 p {
+    font-size: 30px;
+    width: 75%;
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+
+.center-part-1 button {
+    background-color: black;
+    color: white;
+    padding: 20px 30px;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    width: 250px;
+}
+
+.center-part-2 img {
+    position: absolute;
+    height: 100%;
+    right: 0;
+}
+
+.section1bottom {
+    width: 100%;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: flex-start;
+    transform: translateX(-600%);
+
+}
+
+.section1bottom img {
+    width: 500px;
+    margin: 30px 50px;
+    background-color: red;
+    opacity: 5;
+}
+
+.section2 .services {
+    /* background-color: red; */
+    margin-top: 100px;
+    padding: 40px 120px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 30px
+}
+
+.services h3 {
+    background-color: #9Ae975;
+    font-weight: 500;
+    padding: 10px 10px;
+    border-radius: 5px;
+    font-size: 30px;
+    font-family: china;
+}
+
+.services p {
+    width: 40%;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.container {
+    height: 90%;
+    width: 100%;
+    padding: 40px 120px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.elem {
+    flex-shrink: 0;
+    height: 400px;
+    width: 48%;
+    /* background-color: red; */
+    border: 5px solid black;
+    border-radius: 50px;
+    box-shadow: 0px 15px 0px black;
+    padding: 60px;
+    display: flex;
+    gap: 40px;
+}
+
+.elem-part1 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 100%;
+    width: 50%;
+}
+
+.elem-part2 {
+    height: 100%;
+    width: 50%;
+}
+
+.elem-part2 img {
+    height: 100%;
+}
+
+.elem-part1 h2 {
+    font-size: 40px;
+    background-color: #9Ae975;
+    font-weight: 500;
+    font-family: china;
+    padding: 10px;
+}
+
+.elem-part1 i {
+    background-color: black;
+    color: #9Ae975;
+    border-radius: 50%;
+    font-size: 30px;
+    padding: 5px;
+}
+
+.elem-part1 h4 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    font-size: 20px;
+}
+
+.elem-2 {
+    background-color: black;
+}
+
+.elem-2 .elem-part1 h2 {
+    background-color: white;
+}
+
+.elem-2 .elem-part1 i {
+    background-color: white;
+    color: black;
+}
+
+.elem-3 {
+    background-color: black;
+}
+
+.elem-3 .elem-part1 h2 {
+    background-color: white;
+}
+
+.elem-3 .elem-part1 i {
+    background-color: white;
+    color: rgb(144, 132, 132);
+}
+
+@media only screen and (min-width:990px) and (max-width:1450px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    nav {
+        padding: 20px 30px;
+    }
+
+    .part2 {
+        gap: 20px;
+    }
+
+    nav h1 {
+        font-size: 20px;
+        gap: 2px;
+    }
+
+    nav i {
+        display: inline-block;
+        rotate: 45deg;
+    }
+
+    nav h4 {
+        font-size: 15px;
+        font-weight: 300;
+    }
+
+    nav button {
+        padding: 15px 20px;
+        font-size: 15px;
+        background-color: transparent;
+        border-radius: 10px;
+        border: 1px solid black;
+        font-weight: 400;
+    }
+}
