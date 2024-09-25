@@ -69,7 +69,7 @@ nav button {
 }
 
 section .center {
-    padding: 60px 100px;
+    padding: 30px 60px;
     width: 100%;
     height: 72%;
     display: flex;
@@ -93,28 +93,28 @@ section .center {
 
 .center-part-1 h1 {
     line-height: 1.2;
-    font-size: 80px;
+    font-size: 50px;
     /* background-color: red; */
     font-family: china;
 }
 
 .center-part-1 p {
-    font-size: 30px;
+    font-size: 20px;
     width: 75%;
-    padding-top: 50px;
-    padding-bottom: 40px;
+    padding-top: 40px;
+    padding-bottom: 30px;
 }
 
 .center-part-1 button {
     background-color: black;
     color: white;
-    padding: 20px 30px;
-    font-size: 15px;
-    font-weight: 600;
-    border-radius: 15px;
+    padding: 10px 20px;
+    font-size: 10px;
+    font-weight: 4700;
+    border-radius: 12px;
     border: none;
     outline: none;
-    width: 250px;
+    width: 200px;
 }
 
 .center-part-2 img {
