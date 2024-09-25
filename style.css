@@ -176,7 +176,7 @@ section .center {
 .elem {
     flex-shrink: 0;
     height: 350px;
-    width: 55%;
+    width: 44%;
     /* background-color: red; */
     border: 5px solid black;
     border-radius: 50px;
