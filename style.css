@@ -171,12 +171,12 @@ section .center {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    gap: 40px
+
 }
 
 .elem {
     flex-shrink: 0;
-    height: 350px;
+    height: 300px;
     width: 49%;
     /* background-color: red; */
     border: 5px solid black;
