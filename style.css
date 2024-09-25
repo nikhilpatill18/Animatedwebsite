@@ -206,19 +206,19 @@ section .center {
 }
 
 .elem-part1 h2 {
-    font-size: 40px;
+    font-size: 30px;
     background-color: #9Ae975;
-    font-weight: 500;
+    font-weight: 400;
     font-family: china;
-    padding: 10px;
+    padding: 8px;
 }
 
 .elem-part1 i {
     background-color: black;
     color: #9Ae975;
     border-radius: 50%;
-    font-size: 30px;
-    padding: 5px;
+    font-size: 20px;
+    padding: 4px;
 }
 
 .elem-part1 h4 {
